@@ -1,0 +1,3 @@
+# Kaggle paths configuration example
+dataset_dir: /kaggle/input/microorganism-dataset
+output_dir: /kaggle/working/output

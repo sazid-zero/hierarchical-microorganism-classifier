@@ -1,0 +1,3 @@
+# Local paths configuration example
+dataset_dir: ./data/dataset
+output_dir: ./output
