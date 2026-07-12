@@ -1,0 +1,13 @@
+tensorflow>=2.15.0,<2.21
+numpy>=1.24.0,<2.0
+pyyaml
+onnx
+tf2onnx
+matplotlib
+pandas
+scikit-learn
+ipykernel
+pillow
+tqdm
+seaborn
+pytest
