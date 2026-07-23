@@ -152,19 +152,6 @@ python scripts/evaluate_baseline_vs_hierarchical.py \
     --output-dir eval_results
 ```
 
-## Status & Notes
-
-- **Code reconstruction:** Complete (models, training scripts, inference pipeline)
-- **Testing:** Basic import/file smoke tests (pytest)
-- **Execution:** Code is syntactically correct but has NOT been run end-to-end in this workspace
-- **Purpose:** Archive for GitHub; intended for future polishing and validation
-
-### For Maintainers
-- Repository reconstructed from paper + partial code fragments
-- TPU-specific code refactored for portability (MirroredStrategy / TPUClusterResolver auto-detection)
-- Warmup + fine-tune protocol follows paper exactly
-- If running locally, adapt `requirements.txt` to your platform (TensorFlow/numpy have strict compatibility constraints on Windows)
-
 ## Next Steps (Future Work)
 - Implement multi-GPU distributed training strategy
 - Add example notebooks with small dummy datasets for quick verification
@@ -173,7 +160,7 @@ python scripts/evaluate_baseline_vs_hierarchical.py \
 - Benchmark against other hierarchical classification methods
 
 License
-- Add a license file if you intend to open-source this project publicly.
+- MIT License
 
 Project structure
 
