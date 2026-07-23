@@ -1,6 +1,6 @@
 # Hierarchical Microorganism Classification
 
-Reconstructed implementation of a hierarchical deep learning approach for microorganism classification. This project combines two stages of classification—a coarse-grained taxonomy classifier followed by a fine-grained bacteria species classifier—using confidence-based routing between the two stages.
+Implementation of a hierarchical deep learning approach for microorganism classification. This project combines two stages of classification—a coarse-grained taxonomy classifier followed by a fine-grained bacteria species classifier—using confidence-based routing between the two stages.
 
 ## Overview
 
